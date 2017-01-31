@@ -1,0 +1,215 @@
+html {
+    background-color: #eef1f4 !important;
+}
+
+#container {
+    color: #455566;
+}
+
+#left {
+	width: 203px;
+	float: left;
+}
+
+#topLeft {
+	width: 198px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+#shareButton {
+	background-image:url('share_rollover_off.png');
+	position: absolute;
+	bottom: 160px;
+	left: 0px;
+	width: 120px;
+	height: 80px;
+}
+
+#shareButton:hover {
+	background-image:url('share_rollover_on.png');
+}
+
+#splash {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	z-index: -2;
+}
+
+#top_fade {
+	position: fixed;
+	top: 60px;
+	width: 795px;
+}
+
+#spotifyimg {
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 32px;
+	
+}
+
+#startPage {
+	width:822px;
+	float: left;
+}
+
+#start_text {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 80px;
+}
+
+#headphones {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#right {
+	width:822px;
+	float: left;
+	display: none;
+}
+
+#header {
+	width: 775px;
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	border-bottom: 3px solid #bbcfe5;
+	background-color: #eef1f4;
+	position: fixed;
+}
+
+#header h1 {
+	font-size: 22px;
+	color: #455566;
+	display: inline;
+}
+
+#header h2 {
+    margin-left: 6px;
+	font-size: 16px;
+	color: #6a839e;
+	display: inline;
+}
+
+#dropCountDiv {
+	float: right;
+	margin-right: 10px;
+}
+
+#top_drop {
+	width: 18px;
+	float: right;
+}
+
+#totalDrops {
+	float: left;
+	margin-right: 2px;
+}
+
+#sink {
+	width: 822px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+}
+
+.pipe {
+	float: left;
+}
+
+.drop {
+	background-color: white;
+	font-size: 20px;
+	width: 214px;
+	padding: 7px;
+	border: 3px solid #fff;
+	margin: 20px 20px 10px 20px;
+	box-shadow: 2px 2px 2px lightgrey;
+	-webkit-transition:border 1s, background-color 1s, box-shadow 1s;
+}
+
+.drop.selected {
+    background-color: #eff5fd;
+	border: 3px solid #bbcfe5;
+	box-shadow: 0px 0px 0px grey;
+}
+
+#pipe1 .drop {
+    margin-left: 0;
+}
+
+.drop img {
+	width: 214px;
+	padding-bottom: 8px;
+}
+
+.drop p {
+	margin-top: 0;
+	font-family: 'Exo', Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+
+a.addDrop {
+    display: block;
+    height: 26px;
+    margin-top: 8px;
+}
+
+#left {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+#right {
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+
+#albumCover {
+	width: 200px;
+	height: 200px;
+}
+
+#films {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#news {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Sprites */
+.sprite{background: url(sprite.png) no-repeat top left;}
+a.addDrop span {display: block; margin-left: auto; margin-right: auto;}
+a.addDrop .add_drop_icon{ background-position: 0 0; width: 27px; height: 27px;} 
+a.addDrop:hover .add_drop_icon{ background-position: 0 -77px; width: 27px; height: 27px; } 
+.comment_icon{ background-position: 0 -154px; width: 27px; height: 21px; } 
+.drop_icon{ background-position: 0 -225px; width: 21px; height: 25px; } 
+.heart_icon{ background-position: 0 -300px; width: 25px; height: 22px; } 
+.drop.selected a.addDrop .add_drop_icon { background-position: 0 -372px; width: 26px; height: 27px; } 
+.drop.selected a.addDrop:hover .add_drop_icon { background-position: 0 -449px; width: 26px; height: 27px; } 
+.share_rollover_off{ background-position: 0 -526px; width: 120px; height: 80px; } 
+.share_rollover_on{ background-position: 0 -656px; width: 120px; height: 80px; } 
+.spotify_rollover_off{ background-position: 0 -786px; width: 80px; height: 81px; } 
+.spotify_rollover_on{ background-position: 0 -917px; width: 80px; height: 81px; } 
+.video_play_rollover_off{ background-position: 0 -1048px; width: 80px; height: 81px; } 
+.video_play_rollover_on{ background-position: 0 -1179px; width: 80px; height: 81px; } 
+.your_drop_rollover_off{ background-position: 0 -1310px; width: 92px; height: 121px; } 
+.your_drop_rollover_on{ background-position: 0 -1481px; width: 92px; height: 121px; }
